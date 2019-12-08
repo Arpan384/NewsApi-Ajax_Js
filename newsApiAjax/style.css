@@ -1,0 +1,27 @@
+.headline{
+    font-size: 20px;
+    font-style: italic, bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+}
+.description{
+    font-size: 15px;
+    font-style: normal;
+    font-family: 'Arial Narrow';
+    color: black;
+}
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}
+#result:hover,#lat div:hover{
+    cursor: pointer;
+}
+body{
+    background-color: beige;
+}
+.cen{
+    margin-left: 10%;s
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>News</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous"> <!--get inbuilt bootstrap features using predefined classes from getbootstrap -->
+    <link rel="stylesheet" href="style.css">
+    <script src="ajax.js"></script>
+</head>
+<body>
+<div class="jumbotron bg-dark">
+    <div id="input" class="container text-center">
+    <h1 class=" text-center text-white display-3">NEWS API</h1><br>
+        <input id="srch" type="text" placeholder="Find News">
+        <button id="search" class="btn btn-success">Search</button>
+    </div>
+</div>
+    <div id="result" class="container bg-light">
+    </div>
+
+    <div class="container">
+    <br><br>
+    <div class="text-center bg-dark rounded row justify-content-center">
+    <div class=" border border-dark rounded" ><button class="col btn btn-danger mr-2">LATEST</button></div>
+    <div class=" border border-dark rounded" ><button class="col btn btn-warning mr-2">the-times-of-india</button></div>
+    <div class=" border border-dark rounded" ><button class="col btn btn-warning mr-2">bbc-news</button></div>
+    <div class=" border border-dark rounded" ><button class="col btn btn-warning mr-2">espn</button></div>
+    <div class=" border border-dark rounded" ><button class="col btn btn-warning mr-2">google-news-in</button></div>
+    <div class=" border border-dark rounded" ><button class="col btn btn-warning mr-2">cnbc</button></div>
+    <div class=" border border-dark rounded" ><button class="col btn btn-warning mr-2">ign</button></div>
+    <div class=" border border-dark rounded" ><button class="col btn btn-warning mr-2">new-scientist</button></div>
+    <div class=" border border-dark rounded" ><button class="col btn btn-warning mr-2">national-geographic</button></div>
+    <div class=" border border-dark rounded" ><button class="col btn btn-warning mr-2">mirror</button></div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="container alert-dark">
+    <h2>Latest News:-</h2>
+    <div class=" bg-light"><br>
+    <div id="lat" style="width:90%;"></div><br>
+    </div><br>
+    </div><br>
+</div><br>
+</body>
+</html>
